@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="gallery-title">Image Gallery</h1>
+        <!--Filter Buttons-->
+        <div class="filter_buttons">
+            <button data-filter="all">All</button>
+            <button data-filter="Landscapes">Landscapes</button>
+            <button data-filter="Landmarks">Landmarks</button>
+            <button data-filter="Wildlife">Wildlife</button>
+            <button data-filter="Portraits">Portraits</button>
+            <button data-filter="Cuisine">Cuisine</button>
+            <button data-filter="Art">Art</button>
+            <button data-filter="Sports">Sports</button>
+            <button data-filter="Lifestyle">Lifestyle</button>
+            <button data-filter="Technology">Technology</button>
+            <button data-filter="Adventure">Adventure</button>
+        </div>
+    <!--Images Cards-->
+    <div class="filterable_cards">
+         <div class="card" data-name= "Portraits">
+                <img src="images\Portraits\images (5).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Portrait</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\3.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+
+
+           
+
+            <div class="card" data-name= "Technology">
+                <img src="images\Technology\2.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Technology</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\6.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Portraits">
+                <img src="images\Portraits\images (4).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Portrait</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Art">
+                <img src="images\Art\7.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+           
+
+
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\1.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Art">
+                <img src="images\Art\3.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\1.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Art">
+                <img src="images\Art\6.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+
+        
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download (8).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (13).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\3.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+           
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (12).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+     
+
+        <div class="card" data-name= "Technology">
+            <img src="images\Technology\1.jpeg" alt=""/>
+            <div class="card_body">
+                <h6 class="card_title">Technology</h6>
+            </div>
+        </div>
+        <div class="card" data-name= "Adventure">
+            <img src="images\Adventure\2.jpeg" alt=""/>
+            <div class="card_body">
+                <h6 class="card_title">Adventure</h6>
+            </div>
+        </div>
+
+
+        <div class="card" data-name= "Cuisine">
+            <img src="images\Cuisine\4.jpeg" alt=""/>
+            <div class="card_body">
+                <h6 class="card_title">Cuisine</h6>
+            </div>
+        </div>
+        <div class="card" data-name= "Art">
+            <img src="images\Art\4.jpeg" alt=""/>
+            <div class="card_body">
+                <h6 class="card_title">Art</h6>
+            </div>
+        </div>
+
+        <div class="card" data-name= "Landscapes">
+            <img src="images\landscape\images (8).jpeg" alt=""/>
+            <div class="card_body">
+                <h6 class="card_title">Landscape</h6>
+            </div>
+        </div>
+        
+        <div class="card" data-name= "Art">
+                <img src="images\Art\1.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+              <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\2.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name="Landscapes">
+                <img src="images/landscape/download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Art">
+                <img src="images\Art\2.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (6).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (14).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\5.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+            
+        
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Art">
+                <img src="images\Art\m.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\1.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+        
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (3).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Art">
+                <img src="images\Art\r.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\6.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+
+        
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (4).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+            
+
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Portraits">
+                <img src="images\Portraits\images (3).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Portrait</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Art">
+                <img src="images\Art\d.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Portraits">
+                <img src="images\Portraits\images (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Portrait</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\5.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Art">
+                <img src="images\Art\5.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\4.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+
+
+        
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download (12).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Art">
+                <img src="images\Art\g.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download (7).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Technology">
+                <img src="images\Technology\3.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Technology</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+
+    
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\images.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\download (13).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\5.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+
+        
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\images (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\images (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\images.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Technology">
+                <img src="images\Technology\4.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Technology</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Portraits">
+                <img src="images\Portraits\download (1).jpeg"alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Portrait</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Portraits">
+                <img src="images\Portraits\download (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Portrait</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download (9).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Portraits">
+                <img src="images\Portraits\images (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Portrait</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Portraits">
+                <img src="images\Portraits\download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Portrait</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\4.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Portraits">
+                <img src="images\Portraits\images.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Portrait</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (5).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+        
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\download (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download (10).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\download (3).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\7.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\images.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\images (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\images (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\images (3).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Art">
+                <img src="images\Art\download (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Art">
+                <img src="images\Art\download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+
+            <div class="card" data-name= "Art">
+                <img src="images\Art\images (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+
+            <div class="card" data-name= "Art">
+                <img src="images\Art\images (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Art">
+                <img src="images\Art\images.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Art</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\4.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Sports">
+                <img src="images\Sports\download (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Sports</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Sports">
+                <img src="images\Sports\download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Sports</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\1.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+
+            <div class="card" data-name= "Sports">
+                <img src="images\Sports\images (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Sports</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\3.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\3.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Sports">
+                <img src="images\Sports\images (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Sports</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Sports">
+                <img src="images\Sports\images.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Sports</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\2.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (7).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\download (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\images (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\images (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\images (3).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\2.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Cuisine">
+                <img src="images\Cuisine\3.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Cuisine</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download (5).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\images.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (10).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\images (4).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Wildlife">
+                <img src="images\Wildlife\2.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Wildlife</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Technology">
+                <img src="images\Technology\download (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Technology</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\6.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Technology">
+                <img src="images\Technology\download (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Technology</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Technology">
+                <img src="images\Technology\download (3).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Technologye</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Technology">
+                <img src="images\Technology\download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Technology</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landmarks">
+                <img src="images\Landmark\download (6).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landmark</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Technology">
+                <img src="images\Technology\images.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Technology</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\download (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\1.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\download (4).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\images (1).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Landscapes">
+                <img src="images\landscape\images (11).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Landscape</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Lifestyle">
+                <img src="images\Lifestyle\5.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Lifestyle</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\images (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+
+            <div class="card" data-name= "Adventure">
+                <img src="images\Adventure\images.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Adventure</h6>
+                </div>
+            </div>
+    </div>
+    
+
+
+    </div>
+      <!-- The Modal -->
+      <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+        <div id="imageName"></div> <!-- Add this line -->
+    </div>
+    
+</body>
+</html>
